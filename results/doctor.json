@@ -1,0 +1,15 @@
+{
+  "cpu_processor": "Intel64 Family 6 Model 78 Stepping 3, GenuineIntel",
+  "cuda_available": false,
+  "cuda_benchmark_status": "not_run_cuda_unavailable",
+  "gpu_inventory": [],
+  "logical_cpu_count": 4,
+  "nebius_endpoint_status": "not_run",
+  "nsight_profile_status": "not_run",
+  "nvidia_smi_found": false,
+  "platform": "Windows",
+  "python": "3.11.9",
+  "torch": "2.9.1+cpu",
+  "torch_cuda_build": null,
+  "vllm_endpoint_status": "not_run"
+}

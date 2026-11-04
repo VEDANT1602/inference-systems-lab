@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="310" viewBox="0 0 840 310">
+<rect width="840" height="310" fill="#f8fafc"/>
+<text x="30" y="34" font-size="22" font-family="sans-serif" fill="#0f172a">Projected KV reuse passes the arithmetic check</text>
+<text x="30" y="60" font-size="14" font-family="sans-serif">Untrained tiny attention on CPU; this does not measure vLLM serving performance.</text>
+<text x="30" y="115" font-size="16" font-family="sans-serif">Full recomputation</text>
+<rect x="225" y="92" width="408.70" height="36" fill="#64748b"/>
+<text x="643.70" y="116" font-size="15" font-family="sans-serif">12.064 ms</text>
+<text x="30" y="190" font-size="16" font-family="sans-serif">KV reuse + prefill</text>
+<rect x="225" y="167" width="139.15" height="36" fill="#0369a1"/>
+<text x="374.15" y="191" font-size="15" font-family="sans-serif">4.107 ms</text>
+<text x="30" y="285" font-size="14" font-family="sans-serif">Median CPU wall time; same input and weights; warmup excluded; full context vs one-position decode.</text></svg>

@@ -1,0 +1,5 @@
+{
+  "requested_device": "cuda",
+  "scope": "toy_attention_arithmetic",
+  "status": "not_run_cuda_unavailable"
+}

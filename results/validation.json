@@ -1,0 +1,39 @@
+{
+  "command": "python -m unittest discover -s tests -v",
+  "deadline_regressions": [
+    {
+      "elapsed_ms": 73.45499999064486,
+      "error": "timeout",
+      "mode": "trickle_headers",
+      "timeout_ms": 50
+    },
+    {
+      "elapsed_ms": 52.6910000044154,
+      "error": "timeout",
+      "mode": "trickle_body",
+      "timeout_ms": 50
+    }
+  ],
+  "errors": 0,
+  "execution_scope": "local CPU plus live loopback HTTP integration; no provider/GPU tests executed",
+  "failures": 0,
+  "model_downloads_performed_locally": 0,
+  "nebius": "not_run",
+  "new_cloud_resources_created": 0,
+  "notebook_validation": "code cells parsed; outputs empty; not executed on Colab",
+  "nsight": "not_run",
+  "observed_result": "OK",
+  "provider_api_requests": 0,
+  "test_runner_seconds": 8.03,
+  "tests_run": 39,
+  "timeout_scope": "connected-socket header/body deadline; DNS/connection setup and scheduling are not a hard cancellation guarantee",
+  "vllm_gpu": "not_run",
+  "regressions_added": [
+    "trickled response headers",
+    "trickled response body",
+    "deep SSE event JSON preserves denominator",
+    "deep answer JSON preserves transport and quality counts",
+    "deep direct routing answer JSON",
+    "deep contract candidate JSON"
+  ]
+}
