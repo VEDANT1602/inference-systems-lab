@@ -22,12 +22,14 @@ The narrower engineering problem is easy to miss. A streaming event can contain 
 | Original Python implementation and tests | Executed locally; see the commands below |
 | Streaming HTTP integration | Executed against a known-answer loopback fixture; not a provider benchmark |
 | Tiny attention equivalence/timing | Executed with Torch 2.9.1+cpu, float32, one CPU thread |
-| NVIDIA CUDA attention | Not run; CUDA unavailable on the checked local runtime |
+| NVIDIA CUDA attention | Executed separately on a free Colab Tesla T4; see [hardware evidence](results/colab-t4/) |
 | vLLM GPU serving and prefix-cache comparison | Not run; deployment and collection scripts provided |
 | Nebius managed inference | Not run; no provider requests or credits consumed |
 | NVIDIA Nsight Systems | Not run; profiling commands provided |
 
 Read the [generated case study](results/case-study.md), [metrics](results/metrics.json), [raw traces](results/traces.jsonl), and [data card](data/DATA_CARD.md). The chart is a toy attention experiment, not evidence of vLLM/GPU speed or production savings.
+
+The separate [Tesla T4 CUDA check](results/colab-t4/) passed the declared float16 correctness tolerance. Seven-trial medians were 25.626 ms for full recomputation and 20.790 ms for KV reuse. Its configuration, raw repetitions and source revision are retained independently of the original CPU/loopback artifacts. These tiny attention measurements do not establish serving performance or a CPU/GPU comparison.
 
 ![Measured tiny attention experiment](results/attention.svg)
 

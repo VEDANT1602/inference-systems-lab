@@ -1,0 +1,49 @@
+{
+  "status": "executed",
+  "scope": "untrained_tiny_causal_attention_not_vllm_or_llm_quality",
+  "device": "cuda",
+  "dtype": "float16",
+  "torch": "2.11.0+cu130",
+  "python": "3.13.16",
+  "device_name": "Tesla T4",
+  "torch_threads": 1,
+  "seed": 42,
+  "batch": 1,
+  "width": 64,
+  "heads": 4,
+  "prefix_positions": 128,
+  "decode_positions": 64,
+  "repeats": 7,
+  "warmup_runs": 3,
+  "timing": "CUDA events with synchronization",
+  "correctness": {
+    "allclose": true,
+    "max_absolute_error": 6.103515625e-05,
+    "atol_rtol": 0.02
+  },
+  "full_recompute_ms": [
+    25.625919342041016,
+    28.927616119384766,
+    25.339616775512695,
+    24.276927947998047,
+    24.057727813720703,
+    27.34899139404297,
+    28.10678482055664
+  ],
+  "kv_cached_ms": [
+    21.899456024169922,
+    17.887231826782227,
+    18.38319969177246,
+    21.60438346862793,
+    18.703392028808594,
+    20.78976058959961,
+    21.179040908813477
+  ],
+  "median_full_recompute_ms": 25.625919342041016,
+  "median_kv_cached_ms": 20.78976058959961,
+  "median_ratio_full_to_cached": 1.2326221474075447,
+  "cuda_peak_allocated_bytes_combined_measurement": 10620928,
+  "memory_scope": "combined benchmark peak, not separate per-method peaks",
+  "kernel_profile_status": "not_run_requires_nsight",
+  "repository_commit": "5780a7c0661c4cf528957cff730de16e3fd447c4"
+}

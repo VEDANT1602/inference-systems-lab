@@ -1,6 +1,6 @@
 # GPU execution runbook
 
-The committed results contain no NVIDIA, vLLM or Nebius performance measurements. The checked Windows machine has a CPU-only Torch build. This runbook is a plan for compatible hardware, with the free Colab notebook as the zero-spend option.
+The original Windows results use a CPU-only Torch build. A separate [free Colab Tesla T4 artifact](../results/colab-t4/) now records executed CUDA attention arithmetic and timing. vLLM serving, Nebius and Nsight measurements remain unexecuted. This runbook covers the compatible-hardware workflow, with the free Colab notebook as the zero-spend option.
 
 ## First establish capability
 

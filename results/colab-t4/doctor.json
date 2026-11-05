@@ -1,0 +1,18 @@
+{
+  "python": "3.13.16",
+  "platform": "Linux",
+  "torch": "2.11.0+cu130",
+  "cpu_processor": "x86_64",
+  "logical_cpu_count": 2,
+  "cuda_available": true,
+  "torch_cuda_build": "13.0",
+  "nvidia_smi_found": true,
+  "gpu_inventory": [
+    "Tesla T4, 15360, 580.82.07"
+  ],
+  "cuda_benchmark_status": "available_not_yet_run",
+  "vllm_endpoint_status": "not_run",
+  "nebius_endpoint_status": "not_run",
+  "nsight_profile_status": "not_run",
+  "repository_commit": "5780a7c0661c4cf528957cff730de16e3fd447c4"
+}
