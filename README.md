@@ -88,3 +88,7 @@ The local result supports the correctness of the checked transport, accounting a
 This is new portfolio work by **Vedant Thaker**. It demonstrates current implementation and technical communication. It is not private employer/client code and does not validate earlier business metrics, adoption counts, audience reach or upstream contribution status. vLLM, NVIDIA and Nebius references describe integration targets and tools, not affiliations or endorsements.
 
 Conceptual inspiration: [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x). This implementation, workload, experiments and narrative are original; no tutorial repository was copied. See [primary sources and version notes](docs/sources.md).
+
+## Standalone source and history
+
+This project is also available as a self-contained repository extracted from my original portfolio, with its project commit history and recorded artifacts retained. [Source and measurement provenance](PROVENANCE.md) documents the source revision, unchanged file blobs and packaging boundary.

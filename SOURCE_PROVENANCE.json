@@ -1,0 +1,171 @@
+{
+  "name": "inference-systems-lab",
+  "source_hub": "https://github.com/VEDANT1602/DataScienceProject",
+  "source_commit": "ef9c14c01163ad3eadb3eaa673c0073b14478184",
+  "source_prefix": "projects/inference-systems-lab",
+  "split_head": "5a0b59245fe620fe8985ab993301fa27bff7cb5a",
+  "source_tree": "4f509aa328caea8bc46f6fece582d62a2209241f",
+  "export_tree": "4f509aa328caea8bc46f6fece582d62a2209241f",
+  "files": 39,
+  "history_commits": 2,
+  "extraction_date": "2026-11-10",
+  "original_files": [
+    {
+      "path": ".env.example",
+      "git_blob": "59780f15a084dc33f1551cc25ff4a20d3aeda840"
+    },
+    {
+      "path": ".gitignore",
+      "git_blob": "2642fdd7a22ef8d5a97f1a82a2ad60e69f13c6ea"
+    },
+    {
+      "path": "LICENSE",
+      "git_blob": "9544d3354734c0c818fb02e893fb775f2b3daa4e"
+    },
+    {
+      "path": "README.md",
+      "git_blob": "1813321652eff7ed2dfb04906b7f164271dde14c"
+    },
+    {
+      "path": "data/DATA_CARD.md",
+      "git_blob": "de622687518b6fd11cab52335057315399445a2b"
+    },
+    {
+      "path": "data/contract_extraction.jsonl",
+      "git_blob": "f935a5e0ca97a6e9af2dc1f51ed9a0a243b7671d"
+    },
+    {
+      "path": "data/workload.jsonl",
+      "git_blob": "05f94a72ed0de226db46aa5b6620a3e0d03344c3"
+    },
+    {
+      "path": "docs/gpu-runbook.md",
+      "git_blob": "e0f667f3278e3eb71db995e2a56b10598005fb03"
+    },
+    {
+      "path": "docs/measurement-contract.md",
+      "git_blob": "ec6128c44051dc35d77d9cb97460fff3edf2534e"
+    },
+    {
+      "path": "docs/migrate-to-nebius.md",
+      "git_blob": "1597048e86ce9166cfbf66c0c16a9f17d32cd2c4"
+    },
+    {
+      "path": "docs/migrate-to-vllm.md",
+      "git_blob": "f7729402de8c7dbe3ce2c7707ed35346fdc998b9"
+    },
+    {
+      "path": "docs/sources.md",
+      "git_blob": "c036f5366ebe7baaf33138539ccc33cba6d5cd4c"
+    },
+    {
+      "path": "docs/workshop-20-minutes.md",
+      "git_blob": "db72bab407f572fcac2785a7bb504e3f3ff59c16"
+    },
+    {
+      "path": "inference_lab/__init__.py",
+      "git_blob": "d9fbddcbe7e954ac1254aa1bb61f599a2bdff4de"
+    },
+    {
+      "path": "inference_lab/__main__.py",
+      "git_blob": "b99041a03d35736687b27f6e46f88296c899423d"
+    },
+    {
+      "path": "inference_lab/benchmark.py",
+      "git_blob": "2df9b0ed4dd8d127ea29c24052ea58e9bd7a5bf6"
+    },
+    {
+      "path": "inference_lab/contract_gate.py",
+      "git_blob": "ac1b51e918c946ab5f697e94aecaf931b579c319"
+    },
+    {
+      "path": "inference_lab/fixture.py",
+      "git_blob": "48d05f155640940ec8d449bd539fdbc4520ffd13"
+    },
+    {
+      "path": "inference_lab/kv.py",
+      "git_blob": "95d3b9ef4f32abc752d7200493b374827250ba2e"
+    },
+    {
+      "path": "inference_lab/protocol.py",
+      "git_blob": "0539ccb44509d9d9433460941a03525771ff71c2"
+    },
+    {
+      "path": "inference_lab/report.py",
+      "git_blob": "144d41c42cc2c8bbeba7050f21d8c060438a2904"
+    },
+    {
+      "path": "notebooks/free_gpu_lab.ipynb",
+      "git_blob": "2ddc0e52f8752d181182fcb59626d131e0b4ee2f"
+    },
+    {
+      "path": "requirements.txt",
+      "git_blob": "1d3cd14493a50308159b54e7848d8c4538cf47dd"
+    },
+    {
+      "path": "results/attention.svg",
+      "git_blob": "3989f90998629240ac39bbf117a28ba23a3adfd2"
+    },
+    {
+      "path": "results/case-study.md",
+      "git_blob": "c7d8de76dc0593b55aae12fe5d7f22444e85463a"
+    },
+    {
+      "path": "results/colab-t4/README.md",
+      "git_blob": "201dc8016e743f1820193a9563ee66ace8d6d369"
+    },
+    {
+      "path": "results/colab-t4/cuda-attention.json",
+      "git_blob": "680899dfb05a4d4dcebb2e83465b6a8c92e30ecc"
+    },
+    {
+      "path": "results/colab-t4/doctor.json",
+      "git_blob": "ca2a5d304e6a98a10bd3aa2ae954b1ce56d1fc66"
+    },
+    {
+      "path": "results/colab-t4/post-install/cuda-attention.json",
+      "git_blob": "9456d5096a83c16c66d5cafac773d3a8d9fe856b"
+    },
+    {
+      "path": "results/colab-t4/post-install/doctor.json",
+      "git_blob": "9066cb60802d9e836fccc33d2b420b49b374310f"
+    },
+    {
+      "path": "results/cuda-attention.json",
+      "git_blob": "5d3b5b1ec47749e54c0ee9f184650aeec22ebd57"
+    },
+    {
+      "path": "results/doctor.json",
+      "git_blob": "60f762c55b389e03617115eca282a5539912b60f"
+    },
+    {
+      "path": "results/metrics.json",
+      "git_blob": "4767ca29d648bcabbc4d36fd8f5c7f3d678d43af"
+    },
+    {
+      "path": "results/traces.jsonl",
+      "git_blob": "659a0d7cf5d898054c99048e8d2e17f57a95c359"
+    },
+    {
+      "path": "results/validation.json",
+      "git_blob": "8a2d3e6ae9139da4e049e73b23e9864bf1f63362"
+    },
+    {
+      "path": "scripts/build-notebook.py",
+      "git_blob": "d65cdc01a85b4b950684c083dc95ebe57b19bdf1"
+    },
+    {
+      "path": "scripts/collect-nvidia.sh",
+      "git_blob": "3e35e388e1328e7f4f8241213d7749c7496dc9c3"
+    },
+    {
+      "path": "scripts/launch-vllm.sh",
+      "git_blob": "c8b664bf947a050033218fe11340203fb2ca2126"
+    },
+    {
+      "path": "tests/test_lab.py",
+      "git_blob": "6a6bff9f8422312c14d7a9b384797c18f07346e5"
+    }
+  ],
+  "measurement_artifacts_reexecuted": false
+}
